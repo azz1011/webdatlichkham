@@ -1,0 +1,11 @@
+npm init: tạo file package
+
+npm cài các thư viện 
+ 
+
+body-parser: viet api, lay tham so client-> server
+dotevn: 
+ejs
+express
+
+Biến:  var : global let: khai báo cục bộ 
