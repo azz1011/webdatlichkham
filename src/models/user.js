@@ -17,11 +17,14 @@ module.exports = (sequelize, DataTypes) => {
   User.init({
     // id: DataTypes.STRING,  don't need add primary key
     email: DataTypes.STRING,
+    password: DataTypes.STRING,
     firstName: DataTypes.STRING,
     lastName: DataTypes.STRING,
     address: DataTypes.STRING,
     gender: DataTypes.BOOLEAN,
-    roleid: DataTypes.STRING
+    typeRole: DataTypes.STRING,
+    keyRole: DataTypes.STRING,
+
   }, {
     sequelize,
     modelName: 'User',
